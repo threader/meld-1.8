@@ -2,6 +2,14 @@ meld-1.8
 
 This is where people come to cling on to a gtk2/python2 version of meld-1.8.
 
+----
+Remember - deps is a git submodule where i put everything needeed to run -so :
+ :: After first git clone: 
+ git submodule update --init --recursive 
+ :: pull latest submodules changes:
+ git submodule update --recursive 
+----
+
 Most dependencies are in deps/ readme's included, on Debian build/t with: 
 dpkg-buildpackage -us -uc; dh_clean; dpkg-buildpackage -us -uc -nc -j5 --no-post-clean
 

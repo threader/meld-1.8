@@ -1,0 +1,3 @@
+[submodule "deps_2010s"]
+	path = deps
+	url = https://github.com/threader/deps_2010s
